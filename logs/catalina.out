@@ -1742,3 +1742,309 @@ Sep 20, 2013 9:14:53 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["http-nio-8783"]
 Sep 20, 2013 9:14:53 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:36:02 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Sep 21, 2013 11:36:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:36:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:36:02 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 21, 2013 11:36:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:36:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 996 ms
+Sep 21, 2013 11:36:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2013 11:36:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.22
+Sep 21, 2013 11:36:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory birtviewer
+Sep 21, 2013 11:36:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.eclipse.org/birt/taglibs/birt.tld is already defined
+Sep 21, 2013 11:36:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory javadoc
+Sep 21, 2013 11:36:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakart
+
+**********************************************************************************
+* KONAKART LICENSE AGREEMENT                                                     *
+* You may not use this software except in compliance with the licenses.          *
+* Please study the licenses on the KonaKart website  for the rights, obligations *
+* and limitations governing the use of this software.                            *
+* For users of the Community Edition of KonaKart see:                            *
+*         http://www.konakart.com/documents/COMMUNITY-LICENSE.txt                *
+* For users of the Enterprise Extensions of KonaKart see:                        *
+*         http://www.konakart.com/documents/ENTERPRISE-LICENSE.txt               *
+**********************************************************************************
+KonaKart V7.1.1.1-C built 5:53AM 12-Sep-2013 BST [DB: 7.1.1.0 MySQL]
+
+Sep 21, 2013 11:36:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakartadmin
+Sep 21, 2013 11:36:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Sep 21, 2013 11:36:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:36:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:36:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:36:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7224 ms
+Sep 21, 2013 11:39:51 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 21, 2013 11:39:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:39:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:39:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:39:54 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 21, 2013 11:39:54 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/konakart] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Sep 21, 2013 11:39:54 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/konakart] appears to have started a thread named [Thread-9] but has failed to stop it. This is very likely to create a memory leak.
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:39:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:40:00 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Sep 21, 2013 11:40:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:40:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:40:00 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 21, 2013 11:40:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:40:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 727 ms
+Sep 21, 2013 11:40:01 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2013 11:40:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.22
+Sep 21, 2013 11:40:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory birtviewer
+Sep 21, 2013 11:40:01 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.eclipse.org/birt/taglibs/birt.tld is already defined
+Sep 21, 2013 11:40:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory javadoc
+Sep 21, 2013 11:40:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakart
+
+**********************************************************************************
+* KONAKART LICENSE AGREEMENT                                                     *
+* You may not use this software except in compliance with the licenses.          *
+* Please study the licenses on the KonaKart website  for the rights, obligations *
+* and limitations governing the use of this software.                            *
+* For users of the Community Edition of KonaKart see:                            *
+*         http://www.konakart.com/documents/COMMUNITY-LICENSE.txt                *
+* For users of the Enterprise Extensions of KonaKart see:                        *
+*         http://www.konakart.com/documents/ENTERPRISE-LICENSE.txt               *
+**********************************************************************************
+KonaKart V7.1.1.1-C built 5:53AM 12-Sep-2013 BST [DB: 7.1.1.0 MySQL]
+
+Sep 21, 2013 11:40:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakartadmin
+Sep 21, 2013 11:40:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Sep 21, 2013 11:40:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 11:40:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 11:40:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 11:40:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5517 ms
+Sep 21, 2013 12:20:15 PM com.konakart.reports.GetDbParams <init>
+WARNING: Cannot locate configuration source C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin.properties
+org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin.properties
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:249)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:229)
+	at org.apache.commons.configuration.AbstractFileConfiguration.<init>(AbstractFileConfiguration.java:149)
+	at org.apache.commons.configuration.PropertiesConfiguration.<init>(PropertiesConfiguration.java:252)
+	at com.konakart.reports.GetDbParams.init(Unknown Source)
+	at com.konakart.reports.GetDbParams.<init>(Unknown Source)
+	at com.konakart.reports.KonaKartViewerServlet.getDbParams(Unknown Source)
+	at com.konakart.reports.KonaKartViewerServlet.__authenticate(Unknown Source)
+	at org.eclipse.birt.report.servlet.BirtSoapMessageDispatcherServlet.doGet(BirtSoapMessageDispatcherServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.birt.report.servlet.BirtSoapMessageDispatcherServlet.service(BirtSoapMessageDispatcherServlet.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.eclipse.birt.report.filter.ViewerFilter.doFilter(ViewerFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+21-Sep 12:20:15 WARN  (?:__authenticate:?) ClassNotFoundException: not found
+21-Sep 12:29:00 WARN  (?:__authenticate:?) ClassNotFoundException: not found
+Sep 21, 2013 12:49:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 21, 2013 12:49:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 12:49:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 12:49:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 12:49:52 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 21, 2013 12:49:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/konakart] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Sep 21, 2013 12:49:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/konakart] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak.
+Sep 21, 2013 12:49:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/konakartadmin] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Sep 21, 2013 12:49:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/konakartadmin] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak.
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 12:49:52 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 12:51:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Sep 21, 2013 12:51:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 12:51:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 12:51:25 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 21, 2013 12:51:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 12:51:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 811 ms
+Sep 21, 2013 12:51:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2013 12:51:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.22
+Sep 21, 2013 12:51:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory birtviewer
+Sep 21, 2013 12:51:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.eclipse.org/birt/taglibs/birt.tld is already defined
+Sep 21, 2013 12:51:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory javadoc
+Sep 21, 2013 12:51:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakart
+
+**********************************************************************************
+* KONAKART LICENSE AGREEMENT                                                     *
+* You may not use this software except in compliance with the licenses.          *
+* Please study the licenses on the KonaKart website  for the rights, obligations *
+* and limitations governing the use of this software.                            *
+* For users of the Community Edition of KonaKart see:                            *
+*         http://www.konakart.com/documents/COMMUNITY-LICENSE.txt                *
+* For users of the Enterprise Extensions of KonaKart see:                        *
+*         http://www.konakart.com/documents/ENTERPRISE-LICENSE.txt               *
+**********************************************************************************
+KonaKart V7.1.1.1-C built 5:53AM 12-Sep-2013 BST [DB: 7.1.1.0 MySQL]
+
+Sep 21, 2013 12:51:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakartadmin
+Sep 21, 2013 12:51:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Sep 21, 2013 12:51:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 12:51:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 12:51:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 12:51:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5671 ms
+Sep 21, 2013 12:59:35 PM com.konakart.reports.GetDbParams <init>
+WARNING: Cannot locate configuration source C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin.properties
+org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin.properties
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:249)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:229)
+	at org.apache.commons.configuration.AbstractFileConfiguration.<init>(AbstractFileConfiguration.java:149)
+	at org.apache.commons.configuration.PropertiesConfiguration.<init>(PropertiesConfiguration.java:252)
+	at com.konakart.reports.GetDbParams.init(Unknown Source)
+	at com.konakart.reports.GetDbParams.<init>(Unknown Source)
+	at com.konakart.reports.KonaKartViewerServlet.getDbParams(Unknown Source)
+	at com.konakart.reports.KonaKartViewerServlet.__authenticate(Unknown Source)
+	at org.eclipse.birt.report.servlet.BirtSoapMessageDispatcherServlet.doGet(BirtSoapMessageDispatcherServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.birt.report.servlet.BirtSoapMessageDispatcherServlet.service(BirtSoapMessageDispatcherServlet.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.eclipse.birt.report.filter.ViewerFilter.doFilter(ViewerFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:964)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:304)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+21-Sep 12:59:35 WARN  (?:__authenticate:?) ClassNotFoundException: not found
+21-Sep 13:02:47 WARN  (?:__authenticate:?) ClassNotFoundException: not found
+21-Sep 13:15:36 WARN  (?:__authenticate:?) ClassNotFoundException: not found
+Sep 21, 2013 1:16:31 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 21, 2013 1:16:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 1:16:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 1:16:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 1:16:34 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 21, 2013 1:16:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/konakart] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Sep 21, 2013 1:16:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/konakart] appears to have started a thread named [Thread-9] but has failed to stop it. This is very likely to create a memory leak.
+Sep 21, 2013 1:16:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/konakartadmin] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Sep 21, 2013 1:16:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/konakartadmin] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak.
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8789"]

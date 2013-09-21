@@ -110,7 +110,7 @@
 <div id="header-container">
 	<div id="header">
 		<div id="logo">
-			<a href="Welcome.action">KonaKart</a>
+			<a href="Welcome.action">Thorcron</a>
 		</div>
 		<div id="search">
 			<%if (useSolr) { %>						

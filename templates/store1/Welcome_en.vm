@@ -10,7 +10,7 @@ Welcome to KonaKart
 			<tr>
 				<td class="title">
 					<a href="http://www.konakart.com">
-						<img src="${imageBaseUrl}/logo.png" border="0" alt="KonaKart v${KonaKartVersion}"/>
+						<img src="${imageBaseUrl}/templogo-300x197.jpg" border="0" alt="KonaKart v${KonaKartVersion}"/>
 					</a>
 				</td>
 				<td class="title">
