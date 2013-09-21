@@ -13,8 +13,19 @@ grant all on konakart.* to 'kona'@'localhost' identified by 'kona';
 flush privileges;
 
 starting / stopping / logs
+
 starting kona: /opt/konakart/startkonakart.sh
 
 if you want to tail the log : tail -f /opt/konakart/logs/catalina.out
 
 stopping kona: /opt/konakart/stopkonakart.sh 
+
+Pulling (updating will do merges automatically!) - you will want to do this to get any changes made by others in the group to your local repo
+git pull origin master
+
+Committing / Pushing to the remote repo
+if you make changes to the repo and want the rest of us to see them do the following 
+from /opt/konakart
+git add *    - to add anything new you created
+git commit -m "type something descriptive here about what you did in this commit"
+git push origin master
