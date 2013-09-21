@@ -1,0 +1,20 @@
+local setup and git: 
+cd /opt
+sudo mkdir konakart
+sudo chown brian:users konakart
+cd konakart/
+git clone https://github.com/gildmi/thorcron.git ./ (you must have git installed to do this and the ./ is necessary to make sure that there that the local repo is created in a thorcron folder which will mess up you paths in the application)
+
+Database: there is a custom script to create database : /opt/konakart/database/MySQLthorcron_create.sql
+first create local mysql database: (in mysql)
+create database konakart;
+create user 'kona'@'localhost' identified by 'kona';
+grant all on konakart.* to 'kona'@'localhost' identified by 'kona';
+flush privileges;
+
+starting / stopping / logs
+starting kona: /opt/konakart/startkonakart.sh
+
+if you want to tail the log : tail -f /opt/konakart/logs/catalina.out
+
+stopping kona: /opt/konakart/stopkonakart.sh 

@@ -196,3 +196,41 @@ Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["http-nio-8783"]
 Sep 21, 2013 1:16:34 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 2:33:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Sep 21, 2013 2:33:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 2:33:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 2:33:31 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 21, 2013 2:33:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 2:33:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 621 ms
+Sep 21, 2013 2:33:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2013 2:33:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.22
+Sep 21, 2013 2:33:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakartadmin
+Sep 21, 2013 2:33:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Sep 21, 2013 2:33:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory javadoc
+Sep 21, 2013 2:33:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory konakart
+Sep 21, 2013 2:33:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory birtviewer
+Sep 21, 2013 2:33:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.eclipse.org/birt/taglibs/birt.tld is already defined
+Sep 21, 2013 2:33:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8780"]
+Sep 21, 2013 2:33:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8783"]
+Sep 21, 2013 2:33:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8789"]
+Sep 21, 2013 2:33:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5663 ms
+Sep 21, 2013 2:33:40 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
