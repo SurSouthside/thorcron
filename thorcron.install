@@ -3,7 +3,7 @@ cd /opt
 sudo mkdir konakart
 sudo chown brian:users konakart
 cd konakart/
-git clone https://github.com/gildmi/thorcron.git ./ (you must have git installed to do this and the ./ is necessary to make sure that there that the local repo is created in a thorcron folder which will mess up you paths in the application)
+git clone https://github.com/gildmi/thorcron.git ./ (you must have git installed to do this and the ./ is necessary to make sure that the local repo is created in /opt/konakart and not in the /opt/konakart/thorcron folder which will mess up you paths in the application) 
 
 Database: there is a custom script to create database : /opt/konakart/database/MySQLthorcron_create.sql
 first create local mysql database: (in mysql)
