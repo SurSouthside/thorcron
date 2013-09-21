@@ -12,6 +12,8 @@ create user 'kona'@'localhost' identified by 'kona';
 grant all on konakart.* to 'kona'@'localhost' identified by 'kona';
 flush privileges;
 
+now that the databse is ready poplate it with data useing the thorcron script : mysql -u root -p konakart < /opt/konakart/database/MySQL/thorcron_create.sql 
+
 starting / stopping / logs
 
 starting kona: /opt/konakart/startkonakart.sh
@@ -19,6 +21,15 @@ starting kona: /opt/konakart/startkonakart.sh
 if you want to tail the log : tail -f /opt/konakart/logs/catalina.out
 
 stopping kona: /opt/konakart/stopkonakart.sh 
+
+
+Accessing kona on your local machine:
+cart url: http://localhost:8780/konakart
+and this will be the admin url : http://localhost:8780/konakartadmin
+admin credentials are : 
+username : admin@konakart.com
+password : princess
+
 
 Pulling (updating will do merges automatically!) - you will want to do this to get any changes made by others in the group to your local repo
 git pull origin master
